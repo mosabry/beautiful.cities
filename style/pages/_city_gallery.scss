@@ -1,0 +1,31 @@
+/* City Gallery */
+
+.city-images {
+    padding-top: 40px;
+    background-color: $Wild-Caribean-Green;
+    color: $Imperial-Primer;
+
+    .images-of-cities {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .city-image {
+            width: 29%;
+            margin-bottom: 25px;
+            background-color: $Light-gray;
+
+            img {
+                width: 100%;
+            }
+
+            h3 {
+                padding: 15px;
+            }
+
+            p {
+                padding: 0 15px 10px 15px;
+            }
+        }
+    }
+}

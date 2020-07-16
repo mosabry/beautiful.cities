@@ -1,0 +1,60 @@
+/* Journey section */
+
+.journey-ways {
+    width: 90%;
+    margin: auto;
+    padding: 70px;
+    padding-bottom: 40px;
+
+    h2 {
+        text: {
+            align: center;
+            transform: uppercase;
+            color: $Imperial-Primer;
+        }
+        font: {
+            size: 35px;
+            weight: 300;
+        }
+        span {
+            color: $Wild-Caribean-Green;
+            font-weight: 700;
+        }
+    }
+
+    p {
+        color: $Imperial-Primer;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .travel-ways {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+        text-align: center;
+
+        .ways-to-travel {
+            width: 30%;
+
+            &:nth-child(2) {
+                margin-top: 30px;
+            }
+
+            h3 {
+                margin-top: 15px;
+                text-transform: uppercase;
+                color: $Imperial-Primer;
+
+                span {
+                    color: $Wild-Caribean-Green;
+                }
+            }
+
+            p {
+                margin-top: 10px;
+                color: $Imperial-Primer;
+            }
+        }
+    }
+}

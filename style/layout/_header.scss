@@ -1,0 +1,62 @@
+body {
+    background-color: $Light-gray;
+}
+
+header {
+    .page-header {
+        background-color: $Imperial-Primer;
+        color: #fff;
+        font-family: "Pacifico", cursive;
+        padding-left: 70px;
+
+        span {
+            margin-left: 5px;
+            color: $Wild-Caribean-Green;
+        }
+    }
+
+    .nav-menu {
+        padding: 10px 0 10px 120px;
+
+        a {
+            color: $Grey;
+            font-size: 18px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $Imperial-Primer;
+                font-weight: 700;
+            }
+
+            li {
+                padding: 20px;
+            }
+        }
+    }
+
+    .header-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+
+        h2 {
+            font: {
+                weight: 400;
+                size: 35px;
+            }
+            text-transform: uppercase;
+        }
+
+        p {
+            margin: 20px 170px;
+            text-align: center;
+        }
+    }
+}

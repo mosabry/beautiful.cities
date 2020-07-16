@@ -1,0 +1,177 @@
+/*=============================
+
+        Default Values
+
+Font: Ubuntu, Pacifico(Only Logo), sans serif
+
+Colors:
+1. Imperial Primer: #222f3e;
+2. Wild Caribean Green: #1dd1a1;
+3. Light gray: #fbfbfb;
+4. Grey: #ccc;
+
+==============================*/
+/*------------------------------
+        Basic setup
+------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+header .page-header {
+  background-color: #222f3e;
+  color: #fff;
+  font-family: "Pacifico", cursive;
+  padding-left: 70px;
+}
+header .page-header span {
+  margin-left: 5px;
+  color: #1dd1a1;
+}
+header .nav-menu {
+  padding: 10px 0 10px 120px;
+}
+header .nav-menu a {
+  color: #ccc;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+header .nav-menu a:hover {
+  color: #222f3e;
+  font-weight: 700;
+}
+header .nav-menu a li {
+  padding: 20px;
+}
+header .header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+header .header-image h2 {
+  font-weight: 400;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+header .header-image p {
+  margin: 20px 170px;
+  text-align: center;
+}
+
+/* Journey section */
+.journey-ways {
+  width: 90%;
+  margin: auto;
+  padding: 70px;
+  padding-bottom: 40px;
+}
+.journey-ways h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-color: #222f3e;
+  font-size: 35px;
+  font-weight: 300;
+}
+.journey-ways h2 span {
+  color: #1dd1a1;
+  font-weight: 700;
+}
+.journey-ways p {
+  color: #222f3e;
+  text-align: center;
+  margin-top: 15px;
+}
+.journey-ways .travel-ways {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  text-align: center;
+}
+.journey-ways .travel-ways .ways-to-travel {
+  width: 30%;
+}
+.journey-ways .travel-ways .ways-to-travel:nth-child(2) {
+  margin-top: 30px;
+}
+.journey-ways .travel-ways .ways-to-travel h3 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #222f3e;
+}
+.journey-ways .travel-ways .ways-to-travel h3 span {
+  color: #1dd1a1;
+}
+.journey-ways .travel-ways .ways-to-travel p {
+  margin-top: 10px;
+  color: #222f3e;
+}
+
+/* City Gallery */
+.city-images {
+  padding-top: 40px;
+  background-color: #1dd1a1;
+  color: #222f3e;
+}
+.city-images .images-of-cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.city-images .images-of-cities .city-image {
+  width: 29%;
+  margin-bottom: 25px;
+  background-color: #fbfbfb;
+}
+.city-images .images-of-cities .city-image img {
+  width: 100%;
+}
+.city-images .images-of-cities .city-image h3 {
+  padding: 15px;
+}
+.city-images .images-of-cities .city-image p {
+  padding: 0 15px 10px 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #222f3e;
+  color: #fff;
+  padding: 20px 70px;
+}
+footer a {
+  color: #1dd1a1;
+}
+
+/*# sourceMappingURL=styles.css.map */

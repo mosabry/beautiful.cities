@@ -1,0 +1,42 @@
+/*=============================
+
+        Default Values
+
+Font: Ubuntu, Pacifico(Only Logo), sans serif
+
+Colors:
+1. Imperial Primer: #222f3e;
+2. Wild Caribean Green: #1dd1a1;
+3. Light gray: #fbfbfb;
+4. Grey: #ccc;
+
+==============================*/
+
+
+/*------------------------------
+        Basic setup
+------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
