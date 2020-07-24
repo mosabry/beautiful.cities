@@ -2,6 +2,7 @@ body {
     background-color: $Light-gray;
 }
 
+/* Header Styles */
 header {
     .page-header {
         background-color: $Imperial-Primer;
@@ -25,7 +26,7 @@ header {
 
             &:hover {
                 color: $Imperial-Primer;
-                font-weight: 700;
+                // font-weight: 700;
             }
 
             li {

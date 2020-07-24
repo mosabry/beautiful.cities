@@ -43,6 +43,7 @@ body {
   background-color: #fbfbfb;
 }
 
+/* Header Styles */
 header .page-header {
   background-color: #222f3e;
   color: #fff;
@@ -63,7 +64,6 @@ header .nav-menu a {
 }
 header .nav-menu a:hover {
   color: #222f3e;
-  font-weight: 700;
 }
 header .nav-menu a li {
   padding: 20px;
