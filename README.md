@@ -1,6 +1,6 @@
-# <h1 style="text-align: center">Beautiful.cities</h1>
+<h1 style="text-align: center">Beautiful.cities</h1>
 
-<h2 style="text-align: center"> Single-Page Web Design</h2>
+<h2 style="text-align: center"> Landing Page Web Design</h2>
 
 _2nd level coded design of 7th_
 
