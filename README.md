@@ -13,7 +13,7 @@ _2nd level coded design of 7th_
 
 ## Deploy
 
-Deployed by Github-Pages: _[Visit Demo](https://imsabry.github.io/Beautiful-Cities/)_
+Deployed by Github-Pages: _[Visit Demo](https://imsabry.github.io/beautiful.cities/)_
 
 ## Full Screenshot
 
